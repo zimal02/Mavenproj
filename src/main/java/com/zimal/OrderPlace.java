@@ -11,7 +11,7 @@ public class OrderPlace{
     public void orderservices(String name,int productid)//This method handles placing an order
     {
         logger.info(name + " place your order");//Used for normal application flow,Shows that order process has started
-        logger.debug(name + " Check product availability"+ productid);//Used for internal system tracking
+        logger.debug(name + " Check your product availability"+ productid);//Used for internal system tracking
         boolean instock=true;//product is available in stock or not
 
         if(!instock)//Checks if product is NOT available

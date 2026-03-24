@@ -3,3 +3,18 @@
 2026-03-24 13:55:00,932 INFO  com.zimal.OrderPlace - Add to Card
 2026-03-24 13:55:00,932 INFO  com.zimal.OrderPlace - Processing payment
 2026-03-24 13:55:00,932 INFO  com.zimal.OrderPlace - Your order is place
+2026-03-24 14:02:54,461 INFO  com.zimal.OrderPlace - Ali place your order
+2026-03-24 14:02:54,464 DEBUG com.zimal.OrderPlace - Ali Check product availability456
+2026-03-24 14:02:54,465 INFO  com.zimal.OrderPlace - Add to Card
+2026-03-24 14:02:54,465 INFO  com.zimal.OrderPlace - Processing payment
+2026-03-24 14:02:54,465 INFO  com.zimal.OrderPlace - Your order is place
+2026-03-24 14:04:28,603 INFO  com.zimal.OrderPlace - Ali place your order
+2026-03-24 14:04:28,606 DEBUG com.zimal.OrderPlace - Ali Check product availability455
+2026-03-24 14:04:28,606 INFO  com.zimal.OrderPlace - Add to Card
+2026-03-24 14:04:28,606 INFO  com.zimal.OrderPlace - Processing payment
+2026-03-24 14:04:28,606 INFO  com.zimal.OrderPlace - Your order is place
+2026-03-24 14:04:53,765 INFO  com.zimal.OrderPlace - Ali place your order
+2026-03-24 14:04:53,769 DEBUG com.zimal.OrderPlace - Ali Check your product availability455
+2026-03-24 14:04:53,769 INFO  com.zimal.OrderPlace - Add to Card
+2026-03-24 14:04:53,769 INFO  com.zimal.OrderPlace - Processing payment
+2026-03-24 14:04:53,769 INFO  com.zimal.OrderPlace - Your order is place
