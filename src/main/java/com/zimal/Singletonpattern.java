@@ -1,3 +1,4 @@
+package com.zimal;
 public class Singletonpattern {
 
     // static -> only one instance for entire class

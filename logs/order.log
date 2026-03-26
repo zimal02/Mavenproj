@@ -1,0 +1,80 @@
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Ali place your order
+2026-03-26 12:52:50 [main] DEBUG com.zimal.OrderPlace - Ali Check your product availability455
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Add to Card
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Processing payment
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Your order is place
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Ahmad place your order
+2026-03-26 12:52:50 [main] DEBUG com.zimal.OrderPlace - Ahmad Check your product availability456
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Add to Card
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Processing payment
+2026-03-26 12:52:50 [main] INFO  com.zimal.OrderPlace - Your order is place
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - A**i placed your order
+2026-03-26 12:55:30 [main] DEBUG com.zimal.OrderPlace - A**i checked product availability ****55
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - Add to Cart
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - Processing payment
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - Your order is placed
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - A**d placed your order
+2026-03-26 12:55:30 [main] DEBUG com.zimal.OrderPlace - A**d checked product availability ****56
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - Add to Cart
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - Processing payment
+2026-03-26 12:55:30 [main] INFO  com.zimal.OrderPlace - Your order is placed
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Name: A**e
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Email: a**e@example.com
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Phone: ****10
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Name: B**b
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Email: b**b@gmail.com
+2026-03-26 13:03:14 [main] INFO  com.zimal.UserLogger - Phone: ****45
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Name: A**e
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Email: a**e@example.com
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Phone: ****10
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Name: B**b
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Email: b**b@gmail.com
+2026-03-26 14:52:54 [main] INFO  com.zimal.UserLogger - Phone: ****45
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Name: A**e
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Email: a**e@example.com
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Phone: ****10
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Name: B**b
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Email: b**b@gmail.com
+2026-03-26 15:57:50 [main] INFO  com.zimal.UserLogger - Phone: ****45
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Name: A**e
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Email: a**e@example.com
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Phone: ****10
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Name: B**b
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Email: b**b@gmail.com
+2026-03-26 16:26:36 [main] INFO  com.zimal.UserLogger - Phone: ****45
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Name: A**e
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Email: a**e@example.com
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Phone: ****10
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Name: B**b
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Email: b**b@gmail.com
+2026-03-26 23:37:14 [main] INFO  com.zimal.UserLogger - Phone: ****45
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Name: A**e
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Email: a**e@example.com
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Phone: ****10
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - User registered:
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Name: B**b
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Password: ********
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Email: b**b@gmail.com
+2026-03-27 00:54:41 [main] INFO  com.zimal.UserLogger - Phone: ****45

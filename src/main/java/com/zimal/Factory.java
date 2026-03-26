@@ -1,3 +1,4 @@
+package com.zimal;
 public class Factory {
 
     //Interface

@@ -1,3 +1,4 @@
+package com.zimal;
 import java.util.*; // Import all utility classes (HashMap, Map, etc.)
 
 public class MapInterface {
