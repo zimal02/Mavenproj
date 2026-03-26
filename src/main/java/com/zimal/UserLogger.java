@@ -52,4 +52,17 @@ public class UserLogger { // Main class to demonstrate logging with masking
         logger.info("Email: " + maskEmail(email)); // Masked email log
         logger.info("Phone: " + maskPhone(phone)); // Masked phone log
     }
+
+    public static void main(String[] args) {
+
+        UserLogger userLogger = new UserLogger();
+        // Create instance of UserLogger to call non-static methods
+
+        // Test logging multiple users
+        userLogger.logUser("Alice", "mySecret123", "alice@example.com", "9876543210");
+        userLogger.logUser("Bob", "pass123", "bob@gmail.com", "12345");
+
+        System.out.println("Users processed. Check logs in logs/user.log");
+        // Print confirmation to console
+    }
 }

@@ -1,65 +1,110 @@
 package com.zimal;
 
-// Main linked list class
+// Node class (represents each element)
+class Node {
+    int data;      // Data stored
+    Node next;     // next pointer
+    Node prev;     // previous pointer (optional)
+
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+        this.prev = null;
+    }
+}
+
+// Linked list class
 public class MyLinkedlist {
-    Node head; // Head of the list (first node)
+    Node head; // first node
 
-    // add a new node at the end
+    // Add node at end
     public void add(int data) {
-        Node newNode = new Node(data); // Create a new node with data
+        Node newNode = new Node(data);
 
-        if (head == null) { // If list is empty
-            head = newNode; // New node becomes head
+        if (head == null) {
+            head = newNode;
             return;
         }
 
-        Node current = head; // Start from head
-        while (current.next != null) { // traverse nodes until reaching the last node.
-            current = current.next;    // link the new node to the end
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
         }
-        current.next = newNode; // Link last node to new node
+
+        current.next = newNode;
+        newNode.prev = current; // for doubly link
     }
 
-    // Method to print the linked list
+    // Print list
     public void printList() {
-        Node current = head; // Start from head
+        Node current = head;
         System.out.print("Linked List: ");
-        while (current != null) { // Traverse until end
-            System.out.print(current.data + " -> "); // Print current node
-            current = current.next; // Move to next node
+        while (current != null) {
+            System.out.print(current.data + " -> ");
+            current = current.next;
         }
-        System.out.println("null"); // Indicate end of list
+        System.out.println("null");
     }
-    // Find middle node using fast & slow pointers
-    Node middleElement()//returns a reference to the middle node itself, not just its value.
-    {
-        if (head == null)// empty list → return null
-            return null;
-        Node slow=head;// slow pointer moves 1 step at a time
-        Node fast=head;// fast pointer moves 2 steps at a time
-        while (fast!=null && fast.next!=null)// loop until fast reaches end
-        {
-            slow=slow.next;// move slow 1 step
-            fast=fast.next.next;// move fast 2 steps
+
+    // Find middle node
+    Node middleElement() {
+        if (head == null) return null;
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
         return slow;
-
-
     }
-    void deletemeddleElement(){
-        if(head ==null || head.next==null){
-            head=null;
-        return;}
-        Node slow=head;
-        Node fast=head;
-        Node prev=null;
-        while (fast!=null && fast.next!=null){
 
+    // Delete middle node
+    void deleteMiddleElement() {
+        if (head == null || head.next == null) {
+            head = null;
+            return;
         }
 
+        Node slow = head;
+        Node fast = head;
+        Node prev = null;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            prev = slow;
+            slow = slow.next;
+        }
+
+        prev.next = slow.next;
+        if (slow.next != null) {
+            slow.next.prev = prev; // maintain prev link
+        }
     }
 
+    // Main method
+    public static void main(String[] args) {
+
+        MyLinkedlist list = new MyLinkedlist();
+
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(40);
+        list.add(50);
+
+        System.out.println("Original List:");
+        list.printList();
+
+        Node middle = list.middleElement();
+        if (middle != null) {
+            System.out.println("Middle Element: " + middle.data);
+        }
+
+        list.deleteMiddleElement();
+
+        System.out.println("After Deleting Middle:");
+        list.printList();
+    }
 }
-
-
-
