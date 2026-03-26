@@ -1,26 +1,21 @@
-<Configuration status="warn">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
     <Appenders>
-
-        <!-- Console output -->
+        <!-- Console Appender (optional) -->
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d [%t] %-5level %logger - %msg%n"/>
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
 
-        <!-- File output -->
-        <File name="FileLogger" fileName="app.log">
-            <PatternLayout pattern="%d %-5p %c - %m%n"/>
+        <!-- File Appender -->
+        <File name="FileLogger" fileName="logs/order.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
-
     </Appenders>
 
     <Loggers>
-
         <Root level="debug">
-            <AppenderRef ref="Console"/>
-            <AppenderRef ref="FileLogger"/>
+            <AppenderRef ref="Console"/>   <!-- optional -->
+            <AppenderRef ref="FileLogger"/> <!-- write to file -->
         </Root>
-
     </Loggers>
-
 </Configuration>
