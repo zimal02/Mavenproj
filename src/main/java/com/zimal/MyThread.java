@@ -3,7 +3,7 @@ package com.zimal;
 //Implement runnable interfacee
 class MyThread implements Runnable {
 
-    // run() method define main work of thread
+    // run() method define main work of thread,
     public void run() {
 
         // thread start print msg

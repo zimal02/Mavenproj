@@ -1,7 +1,7 @@
 package com.zimal;
 public class Abstractfactory {
 //Factory → creates one type of object
-//Abstract Factory → creates families of related objects
+//Abstract Factory → creates families of related objects,
     // Payment interface → defines payment behavior
     interface Payment {
         void pay(); // method for making payment

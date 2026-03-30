@@ -6,7 +6,7 @@ public class QueueInterface {
 
         Queue<Integer> queue = new LinkedList<>();
 
-        // add elements
+        // add element
         queue.add(10);
         queue.add(20);
         queue.add(30);

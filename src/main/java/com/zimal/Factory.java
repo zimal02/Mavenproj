@@ -1,7 +1,7 @@
 package com.zimal;
 public class Factory {
 
-    //Interface
+
     interface Notification {
         void notifyUser(); // common method
     }

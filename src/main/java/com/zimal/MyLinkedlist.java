@@ -12,7 +12,7 @@ public class MyLinkedlist {
     // Node class
     class Node {
         int data;// value of node
-        Node next;// reference to next node
+        Node next;// reference to next node,
 
         Node(int data) { // constructor
             this.data = data;

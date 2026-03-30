@@ -3,7 +3,7 @@ package com.zimal; // Package declaration. Organizes the class in the 'com.zimal
 import org.apache.logging.log4j.LogManager; // Imports LogManager, used to create Logger objects.
 import org.apache.logging.log4j.Logger;     // Imports Logger, used to log messages.
 
-public class UserLogger { // Main class to demonstrate logging with masking
+public class UserLogger { // Main class to demonstrate logging with maskin
 
     private static final Logger logger = LogManager.getLogger(UserLogger.class);
     // Creates a Logger object for this class. Used to log info, debug, warn, error messages.

@@ -6,7 +6,7 @@ public class Stackclass {
 
         Stack<Integer> stack = new Stack<>();
 
-        // push() → add elementss
+        // push() → add elements
         stack.push(10);
         stack.push(20);
         stack.push(30);

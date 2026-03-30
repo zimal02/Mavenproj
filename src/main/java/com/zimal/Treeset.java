@@ -1,7 +1,7 @@
 package com.zimal;
 import java.util.*;
 public class Treeset
-//TreeSet is a collection
+//TreeSet is a collection,
 //Duplicate allow dont allow ❌
 //Data ko sorted (ascending order) me rakhta hai ✅
     //slower then hashset-but give sorted data

@@ -1,8 +1,8 @@
 package com.zimal;
 public class Singletonpattern {
 
-    // static -> only one instance for entire class
-    // private -> cannot be accessed directly from other classes
+    // static -> only one instance for entire class,
+    // private -> cannot be accessed directly from other classes,
     private static Singletonpattern obj; // singleton instance
 
     private String name = "Database"; // instance variable

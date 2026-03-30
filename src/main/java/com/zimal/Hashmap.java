@@ -3,7 +3,7 @@ import java.lang.ref.SoftReference;
 import java.security.Key;
 import java.util.*; // Import all utility classes (HashMap, Map, etc.)
 
-//Null Value → Multiple null allowed in both HashMap & LinkedHashMap,but key is unique
+//Null Value → Multiple null allowed in both HashMap & LinkedHashMap,but key is unique,
 
 public class Hashmap {
 
