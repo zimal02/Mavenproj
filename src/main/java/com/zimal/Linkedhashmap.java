@@ -1,7 +1,7 @@
 package com.zimal;
 import java.util.LinkedHashMap;
 import java.util.Map;//LinkedHashmap
-// order preserve-,slow due †ø order maintained
+// order preserve-,slow due †ø order maintainedd
 //1null key allow,multiple null value
 //LinkedHashMap = HashMap + doubly linked list
 //HashMap part → stores key-value pairs in buckets based on hashCode

@@ -8,7 +8,7 @@ public class Arraylist {
         for(String arr1 : arr){
             System.out.println(arr1);
         }
-        Collections.sort(arr);//show element in ascending order
+        Collections.sort(arr);//show element in ascending order-
         System.out.println("After Sorting :" + arr);
         System.out.println("size of arr" + arr.size());//size() method returns the number of elements present in the ArrayList
         //when element increase capacity automatically increase, default capacity 10

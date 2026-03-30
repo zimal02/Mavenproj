@@ -6,7 +6,7 @@ class Hashset
 //Duplicate allow ❌
 //Order ❌ (random hota hai)
 //Fast (O(1))
-    //like: unique IDs, emails check karna
+    //like: unique IDs, emails check karnaa
 {
     public static void main(String[] args) {
         HashSet<String> email= new HashSet<>();

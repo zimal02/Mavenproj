@@ -1,6 +1,6 @@
 package com.zimal;
 
-//Implement runnable interface
+//Implement runnable interfacee
 class MyThread implements Runnable {
 
     // run() method define main work of thread
