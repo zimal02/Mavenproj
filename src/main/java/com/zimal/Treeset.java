@@ -1,3 +1,4 @@
+package com.zimal;
 import java.util.*;
 public class Treeset
 //TreeSet is a collection:

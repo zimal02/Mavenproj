@@ -1,3 +1,4 @@
+package com.zimal;
 import java.util.LinkedHashMap;
 import java.util.Map;//LinkedHashmap
 // order preserve-,slow due †ø order maintained

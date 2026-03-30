@@ -1,3 +1,4 @@
+package com.zimal;
 import java.util.Stack;
 
 public class Stackclass {
